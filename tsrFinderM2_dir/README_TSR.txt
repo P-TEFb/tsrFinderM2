@@ -47,6 +47,5 @@ Output:
 
                            The final output is a comprehensive tab-delimited text file which contains
 			   information about both FW and RV strand non-overlapping TSR boundaries, the
-			   MaxTSS position, # of MaxTSS reads, sum of MaxTSS read lengths, # of MaxTSS
-			   reads, and strand.
+			   MaxTSS position, # of MaxTSS reads, sum of MaxTSS read lengths, and strand.
 			   
