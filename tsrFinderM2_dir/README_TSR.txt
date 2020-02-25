@@ -17,7 +17,7 @@ tsrFinderM2I will guide you on installing the module.
 
 tsrFinderM2I syntax:
 
-python tsrFinderM2I <mapped-fragments.bed file> <TSR window size> <TSR read depth> <maximum fragment size> <chromosome sizes file>
+python tsrFinderM2I <mapped-fragments.bed file> <MaxTSS window size> <TSR read depth> <maximum fragment size> <chromosome sizes file>
 
 Example run:               python tsrFinderM2I mapped-fragment.bed 200 10 600 hg38.chrom.sizes.txt
 
@@ -32,7 +32,7 @@ TSR window size:           A desired size of the TSR window (an integer). We fou
                            200bp in width and are often clustered. This parameter can be increased or
 			   decreased to find longer or shorter sized TSRs.
 
-TSR read depth:            The minimum amount of reads per TSR (an integer). This determination of
+MaxTSS read depth:         The minimum amount of reads per MaxTSS (an integer). This determination of
                            this parameter can vary depending on sequencing depth and the amount of
 			   background signal in your dataset.
 
